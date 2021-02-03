@@ -1,0 +1,60 @@
+<main>
+
+	<h1 id="title">Avaliação Prestação de Serviço Prefeitura</h1>
+
+	<p id="description">Compartilhe com a gente sua opinião sobre os principais problemas do nosso município atualmente.</p>
+
+	<form id="survey-form">
+
+		<section>
+			<label id="name-label" for="name">Nome Completo: </label>
+			<input type="text" id="name" placeholder="Digite seu nome completo" required></input>
+		</section>
+
+		<section>
+			<label id="email-label" for="email">E-mail: </label>
+			<input type="email" id="email" placeholder="Digite seu e-mail" required></input>
+		</section>
+
+		<section>
+			<label id="number-label" for="number">Idade: </label>
+			<input type="number" id="number" placeholder="Digite sua idade" min="1" max="110" required></input>
+		</section>
+
+		<section>
+			<label id="document-label" for="document">Documento: </label>
+			<select id="dropdown">
+				<option value="cpf">cpf</option>
+				<option value="rg">rg</option>
+				<option value="cnh">cnh</option>
+			</select>
+			<input type="text" id="document" placeholder="Digite seu documento identificação"></input>
+		</section>
+
+		<section>
+			<label id="iptu-label" for="iptu">Pagante IPTU: </label>
+			<input type="radio" name="iptu_radio" value=true checked>sim</input>
+			<input type="radio" name="iptu_radio" value=false>não</input>
+		</section>
+
+		<section>
+			<label id="zone-label" for="zone">Zona Propriedade: </label>
+			<input type="checkbox" name="zone_checkbox" value="CENTRO">centro</input>
+			<input type="checkbox" name="zone_checkbox" value="NORTE">norte</input>
+			<input type="checkbox" name="zone_checkbox" value="SUL">sul</input>
+			<input type="checkbox" name="zone_checkbox" value="LESTE">leste</input>
+			<input type="checkbox" name="zone_checkbox" value="OESTE">oeste</input>
+		</section>
+
+		<section>
+			<label id="zone-label" for="zone">Para você, qual ou quais são os principais problemas que precisam ser resolvidos na cidade? </label>
+			<textarea id="comment" placeholder="Digite seu comentário"></textarea>
+		</section>
+
+		<section>
+		<input type="submit" id="submit"></input>
+		</section>
+
+	</form>
+
+	<main>

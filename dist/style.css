@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Sora:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #73d0f4;
+  background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 100%;
+}
+body background {
+  position: 0 0;
+  repeat: repeat;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 2rem auto;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #c0e9f9;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  border-radius: 1rem;
+  display: block;
+  font-family: "Sora", sans-serif;
+}
+
+#title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  text-align: center;
+  height: 2rem;
+  color: #3d6270;
+}
+
+#description {
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  text-align: left;
+  height: 8rem;
+  padding-top: 4rem;
+  color: #3d6270;
+}
+
+::placeholder {
+  text-transform: initial;
+}
+
+section {
+  height: 4rem;
+}
+section label {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  height: 1.1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2a88ad;
+}
+section input[type=text],
+section input[type=number],
+section input[type=email] {
+  height: 1.5rem;
+  width: 30rem;
+  border-radius: 0.2rem;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
+  background-color: #c3f3f9;
+}
+section #dropdown {
+  height: 1.5rem;
+  width: 4rem;
+  text-transform: uppercase;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
+  background-color: #c3f3f9;
+}
+section input[type=radio],
+section input[type=checkbox] {
+  margin: 0.5rem;
+}
+section textarea {
+  resize: none;
+  height: 80%;
+  width: 100%;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
+  background-color: #c3f3f9;
+}
+section input[type=submit] {
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  border-radius: 1rem;
+  font-family: "Sora", sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #25c1c4;
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 8rem;
+}
+section input[type=submit]:hover {
+  background: #23ba93;
+}
+
+section:nth-last-child(2) {
+  height: 8rem;
+}
