@@ -1,5 +1,5 @@
 # Responsive Web Design Projects - Build a Survey Form
-> freeCodeCamp - Certificação Treinamento Web Design Responsivo | Projeto 02 - Construa uma página com formulário de pesquisa
+> Free Code Camp - Certificação Treinamento Web Design Responsivo | Projeto 02 - Construa uma página com formulário de pesquisa
 
 ## Objective
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
